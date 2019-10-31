@@ -36,9 +36,9 @@ a:hover{
 
 .main_animation{
   -webkit-animation-name: main_animation; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
   animation-name: main_animation;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes main_animation {
@@ -71,9 +71,9 @@ a:hover{
 
 .row_animation{
   -webkit-animation-name: row_animation; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7.5s; /* Safari 4.0 - 8.0 */
   animation-name: row_animation;
-  animation-duration: 7s;
+  animation-duration: 7.5s;
 }
 /* Standard syntax */
 @keyframes row_animation {
