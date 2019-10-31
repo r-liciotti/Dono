@@ -1,10 +1,10 @@
 
-
-
-
-
-
 $( document ).ready(function() {
+// $("#portfolio").css( "margin: 0;");
+$(".main").addClass("main_animation");
+$(".row").addClass("row_animation");
+
+
   console.log( "ready!" );
   var partJson =
   {

@@ -1,0 +1,135 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+
+  background-color: #1e1e1e;
+  padding: 0;
+  margin: 0 ;
+  font-family: 'Heebo', cursive;
+}
+
+h1{
+  font-family: 'Lobster', ;
+}
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+
+  color: black;
+}
+
+
+.main{
+  position: relative;
+  margin: auto;
+  background: white;
+  width: 100%;
+}
+
+.main_animation{
+  -webkit-animation-name: main_animation; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: main_animation;
+  animation-duration: 1s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes main_animation {
+  from {
+    width: 83%;
+    height: 600px;
+   padding: 65px;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+   padding: 0px;
+  }
+}
+
+/* Standard syntax */
+@keyframes main_animation {
+  from {
+    width: 83%;
+    height: 600px;
+   padding: 65px;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+   padding: 0px;
+  }
+}
+
+
+.row_animation{
+  -webkit-animation-name: row_animation; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: row_animation;
+  animation-duration: 7s;
+}
+/* Standard syntax */
+@keyframes row_animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.indietro{
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 20;
+}
+.indietro img{
+  width: 60px;
+}
+
+
+.parent{
+ position: relative;
+ width: 100%;
+ border: solid 1px black;
+}
+
+.child{
+ position: absolute;
+ width: 40px;
+ border: solid 1px red;
+}
+
+
+.work{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  justify-content: center;  position: relative;
+}
+
+.work .title{
+  position: absolute;
+  left: 850px;
+  z-index: 10;
+  -webkit-text-fill-color: #ffffff00; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+.work .testo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+   font-size: 28px;
+
+}
